@@ -1,0 +1,35 @@
+{
+  "name": "bringit",
+  "description": "Brings files from any remote git source.",
+  "version": "0.0.2",
+  "homepage": "https://github.com/howardroark/bringit",
+  "author": {
+    "name": "Howard Roark",
+    "email": "howie@codingcoop.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/howardroark/bringit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/howardroark/bringit/issues"
+  },
+  "licenses": [
+    {
+      "type": "Unlicence",
+      "url": "https://github.com/howardroark/bringit/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "keywords": [
+    "command line"
+  ],
+  "dependencies": {
+    "commander": "2.3.x"
+  },
+  "bin": {
+    "bring": "bringit.js"
+  }
+}
